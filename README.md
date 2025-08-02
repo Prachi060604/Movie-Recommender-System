@@ -1,16 +1,12 @@
-# Movie-Recommender-System
-This is a Content-Based Movie Recommender System built using Python, pandas, scikit-learn, and Streamlit. It recommends similar movies based on metadata such as genres, cast, crew, and keywords. The project computes similarity scores using cosine similarity on feature vectors generated from movie content.
+# 🎬 Movie Recommender System
 
+This is a personalized movie recommendation web app that suggests similar movies based on their content. The system uses metadata like genre, cast, keywords, and overview to find relationships between movies. Built with Python and Streamlit, it offers an interactive interface and displays posters using data fetched from the TMDb API.
 
-## Features
-Recommends top 5 similar movies based on user selection
+## 🔍 Key Features
 
-Uses movie metadata (title, genres, overview, keywords, cast, crew)
-
-Text vectorization using CountVectorizer
-
-Similarity matrix built using Cosine Similarity
-
-Interactive Streamlit Web App UI
-
-Poster images fetched using TMDb API
+- Suggests top 5 movies similar to a selected title  
+- Uses movie content such as genres, cast, and plot overview  
+- Converts text data into vectors using CountVectorizer  
+- Calculates similarity scores using cosine similarity  
+- User-friendly web interface built with Streamlit  
+- Movie posters and info retrieved via TMDb API
